@@ -73,11 +73,11 @@ $( "#exec" ).click(function() {
 $( "embed" ).remove();
 //get URL and read parameters
 var url = new URL(window.location.href);
-var e = document.getElementById("endpoint").value;
-var r = document.getElementById("reqm").value;
-var c = document.getElementById("ctype").value;
-var d = document.getElementById("postdata").value;
-var p = document.getElementById("phpredir").value;
+var e = encodeURIComponent(document.getElementById("endpoint").value);
+var r = encodeURIComponent(document.getElementById("reqm").value);
+var c = encodeURIComponent(document.getElementById("ctype").value);
+var d = encodeURIComponent(document.getElementById("postdata").value);
+var p = encodeURIComponent(document.getElementById("phpredir").value);
 //create embed object, and call SWF with defined parameters
 var obj = document.createElement("embed");
 obj.src="test.swf?endpoint="+e+"&reqmethod="+r+"&ct="+c+"&jsonData="+d+"&php_url="+p;
