@@ -84,6 +84,8 @@ Related blog posts about this:
 * http://resources.infosecinstitute.com/bypassing-csrf-protections-fun-profit/#gref
 * https://medium.com/@know.0nix/bypassing-crossdomain-policy-and-hit-hundreds-of-top-alexa-sites-af1944f6bbf5 - thanks to the [@knowledge_2014](https://twitter.com/knowledge_2014), who inspired me to implement the response reading component
 
+Thanks for the contribution/bug reporting: [@nirvana-msu](https://github.com/nirvana-msu), [@snooze6](https://github.com/snooze6)
+
 
 ## Disclaimer
 This repository is made for educational and ethical testing purposes only. Usage for attacking targets without prior mutual consent is illegal.
