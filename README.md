@@ -6,7 +6,7 @@ Still working in:
 
 | Browser  | Version |
 | ------------- | ------------- |
-| Chrome (with flash enabled)  | 79.0.3945.88  |
+| Chrome (with flash enabled)  | 79.0.3945.88 (last tested)  |
 
 
 Starting with Chrome 62, direct link to SWF file may not work. If this behavior happens, use HTML wrapper. Also it will require from the victim to click on the flash container first time to enable it, lowering impact due to the user interaction factor.
