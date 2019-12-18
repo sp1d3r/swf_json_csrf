@@ -2,6 +2,13 @@
 This repository was created to simplify the SWF-based JSON CSRF exploitation. It should work also with XML (and any other) data using optional parameters. Also it can be used for easy exploitation of crossdomain.xml misconfiguration (no need to compile .swf for each case).
 
 ## Updates
+Still working in:
+
+| Browser  | Version |
+| ------------- | ------------- |
+| Chrome (with flash enabled)  | 79.0.3945.88  |
+
+
 Starting with Chrome 62, direct link to SWF file may not work. If this behavior happens, use HTML wrapper. Also it will require from the victim to click on the flash container first time to enable it, lowering impact due to the user interaction factor.
 
 **01.01.2018** - added HTML wrapper (`read.html`, should be used with `test.swf`) for better experience with Chrome. Usage and parameters are same as in case with test.swf. It supports also insecure crossdomain.xml exploitation (able to show the response from the target endpoint).
