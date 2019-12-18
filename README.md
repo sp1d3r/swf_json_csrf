@@ -19,6 +19,8 @@ Starting with Chrome 62, direct link to SWF file may not work. If this behavior 
 
 **July 2018** - Fixed in the Firefox: https://www.mozilla.org/en-US/security/advisories/mfsa2018-15/#CVE-2018-12364
 
+**July 2019** - Fix bypass (via 308 redirect) fixed in the Firefox: https://www.mozilla.org/en-US/security/advisories/mfsa2019-21/#CVE-2019-11712
+
 **August 2019** - Flash was disabled by default in latest Chrome 76 builds
 
 ## Variations of target configuration
