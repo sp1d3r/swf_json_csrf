@@ -7,7 +7,7 @@ Still working in:
 | Browser  | Version |
 | ------------- | ------------- |
 | Unknown  | Unknown  |
-The issue was fixed in all known browsers. If you find that this behavior is still reproducible somewhere, feel free to open an issue.
+# This technique was mitigated in all known browsers. If you find that this behavior is still reproducible somewhere, feel free to open an issue.
 
 
 Starting with Chrome 62, direct link to SWF file may not work. If this behavior happens, use HTML wrapper. Also it will require from the victim to click on the flash container first time to enable it, lowering impact due to the user interaction factor.
