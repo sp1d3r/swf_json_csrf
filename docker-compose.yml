@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  swf_json_csrf:
+    image: sp1d3r/swf_json_csrf
+    build: .
+    container_name: 'swf-json-csrf'
+    expose:
+      - "8080"
+
