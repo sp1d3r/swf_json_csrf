@@ -7,7 +7,7 @@ Still working in:
 | Browser  | Version |
 | ------------- | ------------- |
 | Unknown  | Unknown  |
-# This technique was mitigated in all known browsers and can be considered obsolete on the date of April-May 2020. If you find that this behavior is still reproducible somewhere, feel free to open an issue.
+## This technique was mitigated in all known browsers and can be considered obsolete on the date of April-May 2020. If you find that this behavior is still reproducible somewhere, feel free to open an issue.
 
 
 Starting with Chrome 62, direct link to SWF file may not work. If this behavior happens, use HTML wrapper. Also it will require from the victim to click on the flash container first time to enable it, lowering impact due to the user interaction factor.
@@ -22,7 +22,9 @@ Starting with Chrome 62, direct link to SWF file may not work. If this behavior 
 
 **July 2019** - Fix bypass (via 308 redirect) fixed in the Firefox: https://www.mozilla.org/en-US/security/advisories/mfsa2019-21/#CVE-2019-11712
 
-**August 2019** - Flash was disabled by default in latest Chrome 76 builds
+**August 2019** - Flash was disabled by default in latest Chrome 76 builds.
+
+**Apr-May 2020** - Fixed in Chrome 81. The last tested Chrome browser where this technique was usable - 79.0.3945.88. Chrome 80 was not tested so it's unclear about status of this technique in that version.
 
 ## Variations of target configuration
 1) Target site has no crossdomain.xml, or secure crossdomain.xml, not allowing domains you can control. In this case you can't get the response from target site, but still can conduct CSRF attacks with arbitrary Content-Type header, if CSRF protection relies only on the content-type (e.g. checking it for being specific type). In this case usage of 307 redirect is required, to bypass crossdomain.xml (it will be requested only after the csrf will take place).
